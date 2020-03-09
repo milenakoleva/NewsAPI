@@ -4,10 +4,12 @@
 
 # Sorting by title:
 http://localhost:8080/api/news?sort=title,asc
+
 http://localhost:8080/api/news?sort=title,desc
 
 # Sorting by date:
 http://localhost:8080/api/news?sort=date,asc
+
 http://localhost:8080/api/news?sort=date,desc
 
 
@@ -24,7 +26,7 @@ $ mvnw.cmd spring-boot:run
 
 Linux:
 
-$ mvnw spring-boot:run
+$ sh mvnw spring-boot:run
 
 
 # Technical Description:
